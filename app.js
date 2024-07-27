@@ -20,3 +20,11 @@ while (number < 100) {
   }
   number++;
 }
+// Print integers between 0 and 20 with specific conditions
+let number = 0;
+while (number <= 20) {
+  if (number % 2 === 0) {
+    console.log(number * 3);
+  }
+  number++;
+}
