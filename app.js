@@ -43,3 +43,11 @@ while (number <= 20) {
   }
   number++;
 }
+// Calculate the number of quarters Romeo received as change
+let change = 10 - 4;  // Romeo paid $4 and used a $10 bill
+let quarters = 0;
+while (change >= 0.25) {
+  change -= 0.25;
+  quarters++;
+}
+console.log(quarters);
